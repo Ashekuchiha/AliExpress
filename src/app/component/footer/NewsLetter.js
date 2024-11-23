@@ -1,8 +1,7 @@
 import React from 'react'
 import NewsLetterItem from './NewsLetterItem'
 
-export default function 
-() {
+export default function NewsLetter() {
   return (
     <div className='w-full bg-slate-400 text-white h-[70vh] mt-5 px-10 text-center'>
         <div className='w-full h-1/2  flex'>

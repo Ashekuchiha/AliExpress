@@ -13,13 +13,20 @@ const ProductCard = ({ imageSrc, title, price, reviews, sold }) => {
     >
       {/* Product Image */}
       <div className="relative">
-        <Image
+        {/* <img
           src={imageSrc}
           alt={title}
           width={300}
           height={300}
           className="object-cover rounded-md"
-        />
+        /> */}
+        <Image
+  src={imageSrc} // `imageSrc` should be the URL or path to the image
+  alt={title} // `title` is used as the alt text
+  width={300} // Set the width of the image
+  height={300} // Set the height of the image
+  className="object-cover rounded-md" // Apply your Tailwind CSS classes
+/>
       </div>
 
       {/* Product Details */}

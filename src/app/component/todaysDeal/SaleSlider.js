@@ -6,37 +6,37 @@ const SaleSlider = () => {
 
   const slides = [
     { id: 1, content: <SingleCard
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="SingleCard title 1"
         description="12,558"
         updatedAt="-5%"
       />, bgColor: "bg-gray-100" },
     { id: 2, content: <SingleCard
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="SingleCard title"
         description="36,895"
         updatedAt="-5%"
       />, bgColor: "bg-gray-200" },
     { id: 3, content:  <SingleCard
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="SingleCard title"
         description="12,558"
         updatedAt="-5%"
       />, bgColor: "bg-gray-300" },
     { id: 4, content:  <SingleCard
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="SingleCard title"
         description="12,558"
         updatedAt="-5%"
       />, bgColor: "bg-gray-100" },
     { id: 5, content:  <SingleCard
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="SingleCard title"
         description="12,558"
         updatedAt="-5%"
       />, bgColor: "bg-gray-200" },
     { id: 6, content:  <SingleCard
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="SingleCard title"
         description="12,558"
         updatedAt="-5%"

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Popover, MenuItem, Select, Button } from "@mui/material";
+import Image from "next/image";
 
 const LanguageCurrencyForm = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -25,11 +26,13 @@ const LanguageCurrencyForm = () => {
         onClick={handleOpen}
       >
         {/* Flag */}
-        <img
-          src="https://flagcdn.com/w40/bd.png"
-          alt="Bangladesh Flag"
-          className="w-6 h-4"
-        />
+        <Image
+  src="/images/lena.jpg" // URL of the image
+  alt="Bangladesh Flag" // Alt text for the image
+  width={24} // Width of the image (set as per your design needs)
+  height={16} // Height of the image (set as per your design needs)
+  className="w-6 h-4" // Tailwind CSS for styling (these classes can be applied)
+ />
         <span className="text-sm font-medium">EN/BDT</span>
         {/* Dropdown Icon */}
         <svg
@@ -77,21 +80,25 @@ const LanguageCurrencyForm = () => {
             >
               <MenuItem value="Bangladesh">
                 <div className="flex items-center space-x-2">
-                  <img
-                    src="https://flagcdn.com/w40/bd.png"
-                    alt="Bangladesh"
-                    className="w-6 h-4"
-                  />
+                <Image
+  src="/images/lena.jpg" // Image URL
+  alt="Bangladesh" // Alt text for accessibility
+  width={40} // Specify width to match the original image
+  height={26} // Specify height to match the aspect ratio
+  className="w-6 h-4" // Optional Tailwind CSS for further styling (can scale as per your layout)
+ />
                   <span>Bangladesh</span>
                 </div>
               </MenuItem>
               <MenuItem value="USA">
                 <div className="flex items-center space-x-2">
-                  <img
-                    src="https://flagcdn.com/w40/us.png"
-                    alt="USA"
-                    className="w-6 h-4"
-                  />
+                <Image
+  src="https://flagcdn.com/w40/us.png" // Image URL
+  alt="USA" // Alt text for accessibility
+  width={40} // Specify the width (original image size)
+  height={26} // Specify the height (maintaining aspect ratio)
+  className="w-6 h-4" // Optional Tailwind CSS classes for resizing
+ />
                   <span>USA</span>
                 </div>
               </MenuItem>

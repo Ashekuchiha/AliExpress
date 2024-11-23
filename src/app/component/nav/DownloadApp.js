@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import React from 'react';
 
 export default function DownloadApp({ link, label1, label2 }) {
@@ -27,11 +28,13 @@ export default function DownloadApp({ link, label1, label2 }) {
         <div className="flex items-center space-x-4">
           {/* QR Code */}
           <div>
-            <img
-              src="https://via.placeholder.com/100"
-              alt="QR Code"
-              className="w-24 h-24"
-            />
+          <Image
+  src="/images/lena.jpg"
+  alt="QR Code"
+  width={100} // Adjust the dimensions as needed
+  height={100} // Adjust the dimensions as needed
+  className="w-24 h-24"
+/>
           </div>
           {/* Text */}
           <div>

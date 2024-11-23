@@ -7,37 +7,37 @@ const Slider = () => {
 
   const slides = [
     { id: 1, content: <Card
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="Card title"
         description="12,558"
         updatedAt="5 mins ago"
       />, bgColor: "bg-gray-100" },
     { id: 2, content: <Card
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="Card title"
         description="36,895"
         updatedAt="5 mins ago"
       />, bgColor: "bg-gray-200" },
     { id: 3, content:  <Card
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="Card title"
         description="12,558"
         updatedAt="5 mins ago"
       />, bgColor: "bg-gray-300" },
     { id: 4, content:  <Card
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="Card title"
         description="12,558"
         updatedAt="5 mins ago"
       />, bgColor: "bg-gray-100" },
     { id: 5, content:  <Card
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="Card title"
         description="12,558"
         updatedAt="5 mins ago"
       />, bgColor: "bg-gray-200" },
     { id: 6, content:  <Card
-        image="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+        image="/images/lena.jpg"
         title="Card title"
         description="12,558"
         updatedAt="5 mins ago"
