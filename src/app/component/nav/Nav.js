@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import Top from './Top';
 import NavigationBar from './NavigationBar';
-import Bot from './bot';
 
 export default function Nav() {
   const [showNavbar, setShowNavbar] = useState(true);
