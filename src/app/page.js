@@ -4,10 +4,12 @@ import Main from "./component/cover/Main";
 import ProductCard from "./component/moreToLove/ProductCard";
 import ShopByCategory from "./component/shopByCategory/ShopByCategory";
 import TodaysDeals from "./component/todaysDeal/TodaysDeals";
+import Bot from "./component/nav/bot";
 
 export default function Home() {
   return (
     <div>
+      <Bot/>
       <Main/>
       <h1 className="text-black font-extrabold text-2xl text-center pt-2 pb-4">Todays deals</h1>
       <TodaysDeals/>

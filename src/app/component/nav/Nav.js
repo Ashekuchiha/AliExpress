@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Top from './Top';
 import NavigationBar from './NavigationBar';
-import AllCategoriesDropdown from './AllCategoriesButton';
+import Bot from './bot';
 
 export default function Nav() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -36,14 +36,10 @@ export default function Nav() {
         showNavbar ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      <div className='h-32 px-3 bg-white'>
+      <div className=' px-3 bg-white'>
         <div className='bg-white'>
           <Top />
         </div>
-        {/* <div className='text-black flex gap-4 justify-center'>
-          <AllCategoriesDropdown />
-          <NavigationBar />
-        </div> */}
       </div>
     </div>
   );
