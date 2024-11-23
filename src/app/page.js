@@ -4,7 +4,7 @@ import Main from "./component/cover/Main";
 import ProductCard from "./component/moreToLove/ProductCard";
 import ShopByCategory from "./component/shopByCategory/ShopByCategory";
 import TodaysDeals from "./component/todaysDeal/TodaysDeals";
-import Bot from "./component/nav/bot";
+import Bot from "./component/nav/Bot";
 
 export default function Home() {
   return (
