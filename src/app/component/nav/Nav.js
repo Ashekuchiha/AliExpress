@@ -40,10 +40,10 @@ export default function Nav() {
         <div className='bg-white'>
           <Top />
         </div>
-        <div className='text-black flex gap-4 justify-center'>
+        {/* <div className='text-black flex gap-4 justify-center'>
           <AllCategoriesDropdown />
           <NavigationBar />
-        </div>
+        </div> */}
       </div>
     </div>
   );

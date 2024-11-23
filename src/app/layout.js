@@ -1,5 +1,6 @@
 import "./globals.css";
 import Nav from "./component/nav/Nav";
+import Footer from "./component/footer/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="pt-32 bg-white">
           <Nav />
           {children}
+          <Footer/>
       </body>
     </html>
   );

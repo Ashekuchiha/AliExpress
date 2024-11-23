@@ -6,7 +6,7 @@ export default function Banner() {
     const img = 'public\lena.jpg'
   return (
     <div
-    className=' mx-20 h-[79.6667vh] mb-52 mt-10 bg-cover bg-center bg-no-repeat p-4' 
+    className=' mx-20 h-[79.6667vh] mt-10 bg-cover bg-center bg-no-repeat p-4' 
     style={{ backgroundImage: "url('/images/lena.jpg')", filter:'invert(10%)'}}
     >
       <div className=' w-full h-1/3 pl-11 flex '>
