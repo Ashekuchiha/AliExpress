@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Top from './Top';
-import NavigationBar from './NavigationBar';
+import NavBot from './NavBot';
 
 export default function Nav() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -35,10 +35,9 @@ export default function Nav() {
         showNavbar ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      <div className=' px-3 bg-white'>
-        <div className='bg-white'>
+      <div className=' bg-white h-[8rem]'>
           <Top />
-        </div>
+          <NavBot/>
       </div>
     </div>
   );

@@ -2,7 +2,6 @@ import React from 'react'
 import CurrentDateTime from './RTime'
 import Link from 'next/link'
 import { ArrowCircleRight, ShoppingCartCheckout } from '@mui/icons-material'
-import Logo from '../nav/Logo'
 import Slider from '../Slider'
 
 export default function Main() {
@@ -13,7 +12,7 @@ export default function Main() {
       <div className='font-bold text-2xl pb-5 pt-2 '><Link href='#'><ShoppingCartCheckout/> <span className='pl-1 text-yellow-500'>BEST DEALS</span> OF THE YEAR <ArrowCircleRight/></Link></div>
       <Slider/>
       </div>
-      <div className='h-full content-center'><Logo/></div>
+      <div className='h-full content-center'>hi</div>
     </div>
   )
 }

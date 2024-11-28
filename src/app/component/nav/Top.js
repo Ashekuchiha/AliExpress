@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import SearchBar from './Searchbar'
 import Logo from './Logo';
 import DownloadApp from './DownloadApp';
-import LanguageCurrencyForm from './test';
-import SignInButton from './test2';
+import LanguageCurrencyForm from './LanguageCurrencyForm';
+import SignInButton from './SignInButton';
 import CartButton from './CartButton';
 
 export default function Top() {
@@ -14,7 +14,7 @@ export default function Top() {
       console.log("Voice search activated!");
     };
   return (
-    <div className='flex gap-10 items-center h-16 align-middle justify-center'>
+    <div className='flex gap-6 items-center h-16 align-middle justify-center pt-[10px]'>
         <Logo/>
         <SearchBar 
         placeholder="Search something..." 

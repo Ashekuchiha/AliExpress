@@ -11,13 +11,14 @@ const ProductCard = ({ image, brand, price, bulkPrice, retailPrice }) => {
           alt={brand}
           className="w-full h-48 object-cover rounded-lg"
         /> */}
-        <Image
-          className="w-full h-48 object-cover rounded-lg"
-          src={image} // `image` should be a URL or path to the image
-  alt={"title"}  // `title` is used as the alt text for the image
-  layout="fill" // Ensures the image takes the full space of its parent
-  objectFit="cover" // Ensures the image covers the entire area
-/>
+        <div className="relative w-full h-48 rounded-lg">
+          <Image
+            src={image} // `image` is a URL or path to the image
+            alt="title" // Descriptive alt text for accessibility
+            fill // Allows the image to fill the parent container
+            className="object-cover rounded-lg" // Ensures the image maintains the desired styling
+          />
+        </div>
         <span className="absolute top-2 left-2 bg-black text-white text-xs font-bold px-2 py-1 rounded">
           {brand}
         </span>

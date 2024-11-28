@@ -16,7 +16,7 @@ const NavigationBar = () => {
   };
 
   return (
-    <nav className="flex items-center space-x-6">
+    <nav className="flex items-center space-x-6 gap-4 ml-[-8rem]">
       {/* Menu Items */}
       <p className="text-red-500 font-semibold cursor-pointer">SuperDeals</p>
       <p className="cursor-pointer">Plus</p>

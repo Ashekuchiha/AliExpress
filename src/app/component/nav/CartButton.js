@@ -1,6 +1,6 @@
 import React from "react";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Badge from "@mui/material/Badge";
+import { ShoppingCart } from "lucide-react";
 
 const CartButton = ({ count = 0 }) => {
   return (
@@ -13,7 +13,7 @@ const CartButton = ({ count = 0 }) => {
           badge: "bg-black text-white font-bold text-xs h-5 w-5 rounded-full",
         }}
       >
-        <ShoppingCartIcon className="text-black w-6 h-6" />
+        <ShoppingCart/>
       </Badge>
       {/* Text */}
       <p className="text-black font-medium text-sm">Cart</p>

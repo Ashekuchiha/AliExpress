@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="pt-[5rem] bg-white">
+      <body className="pt-[8rem] bg-white">
           <Nav />
           {children}
           <Footer/>
